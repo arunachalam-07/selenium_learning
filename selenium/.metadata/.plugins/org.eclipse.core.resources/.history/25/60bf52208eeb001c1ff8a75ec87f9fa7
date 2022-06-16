@@ -1,0 +1,12 @@
+package launch_browser;
+
+public class Openbrowser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "/home/arunachalam/eclipse-workspace/learn_automation_online/selenium/drivers/chromedriver");
+
+	}
+
+}
