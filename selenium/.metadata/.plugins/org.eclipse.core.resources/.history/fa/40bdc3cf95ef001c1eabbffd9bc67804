@@ -1,0 +1,10 @@
+package workingWithAlertsExample;
+
+public class WorkingWithAlerts {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
