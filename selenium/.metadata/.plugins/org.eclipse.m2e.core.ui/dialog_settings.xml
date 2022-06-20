@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/arunachalam/eclipse-workspace/learn_automation_online/selenium/open_browser_no_maven"/>
 			<item value="/home/arunachalam/eclipse-workspace/learn_automation_online/selenium"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,12 +46,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="001Kotlin"/>
 			<item value="browser_hands_on_maven"/>
 		</list>
 		<list key="name">
+			<item value="SeleniumUsingKotlin"/>
 			<item value="browser_hands_on_maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="001Kotlin"/>
 			<item value="001"/>
 		</list>
 		<list key="projectNameTemplate">
