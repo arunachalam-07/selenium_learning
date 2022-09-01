@@ -14,8 +14,8 @@ public class WorkingWithCalendars {
 		ApplicationClassCalendar2 calendar2 = new ApplicationClassCalendar2();
 
 		calendar2.movingSpecificMonth("September", 2023);
-		calendar2.pickADate();
-		calendar2.seleniumClose();
+		calendar2.pickADate(21);
+//		calendar2.seleniumClose();
 	}
 
 }
@@ -71,12 +71,12 @@ class ApplicationClassCalendar2 {
 		}
 	}
 
-	void pickADate()
+	void pickADate(int date)
 	{
 		
 //		//td[@data-date='2022-09-01']
 		
-		WebElement pickDate=driver.findElement(By.xpath("//*[@id=\"j_idt87:schedule\"]/div[2]/div/table/tbody/tr/td/div/div/div/table/tbody/tr[1]/td[6]"));
+		WebElement pickDate=driver.findElement(By.xpath("//a[contains(text(),"+date+")]"));
 		pickDate.click();
 		
 	}
