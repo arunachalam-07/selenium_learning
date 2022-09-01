@@ -16,9 +16,12 @@
     <fullyQualifiedTypeName name="java.awt.Robot"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
 </qualifiedTypeNameHistroy>
