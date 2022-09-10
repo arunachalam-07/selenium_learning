@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-10T19:48:49 IST" name="Default suite" finished-at="2022-09-10T19:48:49 IST" duration-ms="94">
+    <groups>
+    </groups>
+    <test started-at="2022-09-10T19:48:49 IST" name="Default test" finished-at="2022-09-10T19:48:49 IST" duration-ms="94">
+      <class name="testng_handson.DriveACar">
+        <test-method signature="healthCheck()[pri:0, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="healthCheck" finished-at="2022-09-10T19:48:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheck -->
+        <test-method signature="putNetural()[pri:1, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="putNetural" finished-at="2022-09-10T19:48:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putNetural -->
+        <test-method signature="startCar()[pri:1, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="startCar" finished-at="2022-09-10T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCar -->
+        <test-method signature="put1stGear()[pri:2, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="put1stGear" finished-at="2022-09-10T19:48:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put1stGear -->
+        <test-method signature="put2ndGear()[pri:3, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="put2ndGear" finished-at="2022-09-10T19:48:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put2ndGear -->
+        <test-method signature="put3rdGear()[pri:4, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="put3rdGear" finished-at="2022-09-10T19:48:49 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put3rdGear -->
+      </class> <!-- testng_handson.DriveACar -->
+      <class name="testng_handson.SettingPriority_2">
+        <test-method signature="check()[pri:0, instance:testng_handson.SettingPriority_2@7ff95560]" started-at="2022-09-10T19:48:49 IST" name="check" finished-at="2022-09-10T19:48:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+      </class> <!-- testng_handson.SettingPriority_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

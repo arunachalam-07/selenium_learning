@@ -27,4 +27,11 @@
 			<item value="settings"/>
 		</list>
 	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="82"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="692"/>
+		<item key="DIALOG_HEIGHT" value="735"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
+	</section>
 </section>
