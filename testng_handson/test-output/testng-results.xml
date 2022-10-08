@@ -1,43 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-10T19:48:49 IST" name="Default suite" finished-at="2022-09-10T19:48:49 IST" duration-ms="94">
+  <suite started-at="2022-10-08T23:15:22 IST" name="Suite" finished-at="2022-10-08T23:15:22 IST" duration-ms="68">
     <groups>
     </groups>
-    <test started-at="2022-09-10T19:48:49 IST" name="Default test" finished-at="2022-09-10T19:48:49 IST" duration-ms="94">
-      <class name="testng_handson.DriveACar">
-        <test-method signature="healthCheck()[pri:0, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="healthCheck" finished-at="2022-09-10T19:48:49 IST" duration-ms="9" status="PASS">
+    <test started-at="2022-10-08T23:15:22 IST" name="Test" finished-at="2022-10-08T23:15:22 IST" duration-ms="68">
+      <class name="testng_handson.SampleCases12">
+        <test-method signature="actualTest()[pri:0, instance:testng_handson.SampleCases12@11dc3715]" started-at="2022-10-08T23:15:22 IST" name="actualTest" finished-at="2022-10-08T23:15:22 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- healthCheck -->
-        <test-method signature="putNetural()[pri:1, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="putNetural" finished-at="2022-09-10T19:48:49 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- actualTest -->
+        <test-method signature="failCase()[pri:0, instance:testng_handson.SampleCases12@11dc3715]" started-at="2022-10-08T23:15:22 IST" name="failCase" finished-at="2022-10-08T23:15:22 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at testng_handson.SampleCases12.failCase(SampleCases12.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putNetural -->
-        <test-method signature="startCar()[pri:1, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="startCar" finished-at="2022-09-10T19:48:49 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- failCase -->
+        <test-method signature="skipCase()[pri:0, instance:testng_handson.SampleCases12@11dc3715]" started-at="2022-10-08T23:15:22 IST" name="skipCase" finished-at="2022-10-08T23:15:22 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Forcely skipping the sampleTest4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Forcely skipping the sampleTest4
+at testng_handson.SampleCases12.skipCase(SampleCases12.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startCar -->
-        <test-method signature="put1stGear()[pri:2, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="put1stGear" finished-at="2022-09-10T19:48:49 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- put1stGear -->
-        <test-method signature="put2ndGear()[pri:3, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="put2ndGear" finished-at="2022-09-10T19:48:49 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- put2ndGear -->
-        <test-method signature="put3rdGear()[pri:4, instance:testng_handson.DriveACar@71c8becc]" started-at="2022-09-10T19:48:49 IST" name="put3rdGear" finished-at="2022-09-10T19:48:49 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- put3rdGear -->
-      </class> <!-- testng_handson.DriveACar -->
-      <class name="testng_handson.SettingPriority_2">
-        <test-method signature="check()[pri:0, instance:testng_handson.SettingPriority_2@7ff95560]" started-at="2022-09-10T19:48:49 IST" name="check" finished-at="2022-09-10T19:48:49 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check -->
-      </class> <!-- testng_handson.SettingPriority_2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- skipCase -->
+      </class> <!-- testng_handson.SampleCases12 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

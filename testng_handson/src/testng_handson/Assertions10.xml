@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assertion">
+	<test name="assert test1">
+	<parameter name="Name" value="puma messi"></parameter>
+	<classes>
+	<class name="testng_handson.Assertion10"/>
+	</classes>
+	
+	</test>
+	<test name="assert test2">
+	<parameter name="Name" value="messi cougar"></parameter>
+	<classes>
+	<class name="testng_handson.Assertion10"/>
+	</classes>
+	
+	</test>
+
+</suite>

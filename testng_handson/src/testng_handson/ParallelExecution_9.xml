@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParllelTestExecution" parallel="methods" thread-count="3">
+	<test name="ParllelTest">
+		<classes>
+			<class name="testng_handson.ParallelTestCaseExecution_9" />
+		</classes>
+	</test>
+</suite>

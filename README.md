@@ -1,8 +1,15 @@
-# selenium_learning
+# Learning Automation
 
-#Hands on selenium +Java
+#step1--> Basic Selenium
+
+#step2--> Advanced Selenium
+
+#step3--> TestNG
+
+#step4--> Data driven framework using selenium + testng (like real world production code)
+
 
 #Learning selenium with learn automation online youtube channel
 
-#Selenium Basics->open_browser_no_maven
+
 

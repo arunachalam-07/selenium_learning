@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Grouping of test cases" verbose="4">
+
+	<groups>
+		<run>
+			<include name="moto" />
+			<include name="apple" />
+		</run>
+	</groups>
+	<test name="Testcase group1	">
+		<classes>
+
+			<class name="testng_handson.GroupingOfTestCases_7" />
+		</classes>
+
+	</test>
+</suite>
+
+
+<!-- 
+hierarchy
+
+suite-groups(run)-test-classes-class
+
+
+
+-->
