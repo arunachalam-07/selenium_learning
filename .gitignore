@@ -4,3 +4,7 @@
 ./settings
 ./.*
 ./drivers/
+./selenium_package
+./selenium_learning/*/.*
+./selenium_learning/*/*/.*
+
