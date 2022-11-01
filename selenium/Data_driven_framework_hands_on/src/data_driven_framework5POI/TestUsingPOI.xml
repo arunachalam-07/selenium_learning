@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="POITest">
+    <classes>
+      <class name="data_driven_framework5POI.TestUsingPOI"/>
+      <method name="data_driven_framework5POI.TestUsingPOI.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test1">
+		<parameter name="username" value="admin"/>
+		<parameter name="password" value="admin123" />
+		<classes>
+			<class
+				name="data_driven_framework2.WrongUsernameCorrectPassword" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="test2">
+		<parameter name="username" value="Admin" />
+		<parameter name="password" value="admin123" />
+		<classes>
+			<class
+				name="data_driven_framework2.CorrectUsernameWrongPassword" />
+		</classes>
+	</test>
+
+	<test name="test3">
+		<parameter name="username" value="Admin" />
+		<parameter name="password" value="Admin123" />
+		<classes>
+			<class
+				name="data_driven_framework2.CorrectUsernameCorrectPassword" />
+		</classes>
+	</test>
+
+	<test name="test4">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin" />
+		<classes>
+			<class name="data_driven_framework2.WrongUsernameWrongPassword" />
+		</classes>
+	</test>
+</suite>
